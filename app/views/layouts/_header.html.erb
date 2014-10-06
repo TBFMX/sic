@@ -1,1 +1,18 @@
 <h1>Encabezado</h1>
+<div class="menu">
+	<ul> 
+		<li><%= link_to 'Inicio', root_path %></li>
+		<li><%= link_to 'Nuestra Empresa', nosotros_path %></li>
+		<li><%= link_to 'Servicios', servicios_path %>
+			<ul>
+				<li><a href="#">Evaluación personal</a></li>
+				<li><a href="#">Apoyo en los conflictos humanos</a></li>	
+				<li><a href="#">Psicoterapia personal</a></li>
+				<li><a href="#">Casos especiales o críticos</a></li>	
+				<li><a href="#">Psicología laboral y clínica</a></li>		
+			</ul>
+		</li>
+		<li><%= link_to 'Cliente', clientes_path %></li>
+		<li><%= link_to 'Contacto', contacto_path %></li>				
+	</ul>
+</div>

@@ -1,6 +1,13 @@
 Rails.application.routes.draw do
   get 'welcome/index'
 
+  controller :welcome do
+    get 'nosotros' => :nosotros
+    get 'servicios' => :servicio
+    get 'clientes' => :cliente
+    get 'contacto' => :contacto
+  end            
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
