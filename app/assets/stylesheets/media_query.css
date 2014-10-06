@@ -11,9 +11,6 @@
 
 }
 
-
-
-
 /* #### Mobile Phones Portrait #### */
 @media screen and (max-device-width: 480px) and (orientation: portrait){
 }
@@ -40,4 +37,43 @@
 
 /* #### Desktops #### */
 @media screen and (min-width: 1024px){
+}
+
+@media screen and (max-width: 400px){
+	
+	#inicio, #clientes, #contacto, #nosotros, #servicios{
+		width: 100%;
+		margin: 0 auto 0 auto;
+		padding: 2.5%;
+	}
+	
+	#inicio{
+		background-image:url('/images/evaluacionpersonalBG.jpg'); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;	
+	}
+
+	#nosotros{
+		background-image:url('/images/evaluacionpersonalBG.jpg'); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;	
+	}	
+
+	#servicios{
+		background-image:url('/images/evaluacionpersonalBG.jpg'); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;	
+	}
+
+	#clientes{
+		background-image:url('/images/evaluacionpersonalBG.jpg'); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;	
+	}	
+
+	#contacto{
+		background-image:url('/images/contactoBG.jpg'); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;	
+	}
 }
