@@ -2,9 +2,14 @@ Rails.application.routes.draw do
   get 'welcome/index'
 
   controller :welcome do
-    get 'nosotros' => :nosotros
     get 'servicios' => :servicio
-    get 'clientes' => :cliente
+      get 'casos' => :casos
+      get 'psicoterapia' => :psicoterapia
+      get 'resolucion' => :resolucion
+    get 'evaluacion_personal' => :evaluacion_personal
+    get 'psicodiagnosticos' => :psicodiagnosticos 
+    get 'nosotros' => :nosotros
+    #get 'clientes' => :cliente
     get 'contacto' => :contacto
   end            
 

@@ -2,13 +2,45 @@ body{
 	 background-color: #555555;
 }
 
-#inicio, #clientes, #contacto, #nosotros, #servicios{
+#pc{
+	display: block;
+}	
+
+	.movil_slider,
+	#movil{
+	display: none;
+}	
+
+#inicio, 
+#clientes, 
+#contacto, 
+#nosotros, 
+#servicios,
+#evaluacion_personal,
+#psicodiagnosticos{
 	width: 100%;
 	margin: 0 auto 0 auto;
 	padding: 2.5%;
 }
 
-h1 {
+#ver_mas{
+	width: 150px;
+	min-height: 25px;
+	font-size: 15px;
+	text-align: left;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+	padding: 5px;
+	margin: 0 auto 0 auto;
+}
+
+#ver_mas:hover{
+	font-weight: bold;
+	opacity: 0.5;
+	background-color: #000000;
+}
+
+h1, .anclas {
 	font-size: 20px;
 	color: #FFFFFF;
 	font-weight: bold;

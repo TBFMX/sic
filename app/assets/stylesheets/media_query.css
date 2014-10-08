@@ -40,36 +40,95 @@
 }
 
 @media screen and (max-width: 400px){
-	
-	#inicio, #clientes, #contacto, #nosotros, #servicios{
-		width: 100%;
+	#pc{
+		display: none;
+	}	
+
+	#movil,
+	.movil_slider{
+		display: block;
+	}	
+
+	.movil_inicio,
+	.movil_clientes,
+	.movil_contacto,
+	.movil_nosotros,
+	.movil_servicios,
+	.movil_servicios_casos,
+	.movil_servicios_resolucion,
+	.movil_servicios_psicoterapia,
+	.movil_evaluacion_personal,
+	.movil_psicodiagnosticos{
+		min-width: 310px;
+		max-width: 380px;
+		height:532px;	
+		overflow: scroll;
+		padding: 5px;	
+	}
+
+	.movil_inicio,
+	.movil_contacto,
+	.movil_servicios,
+	.movil_servicios_resolucion,
+	.movil_evaluacion_personal{	
+		background-color: #FF0000;	
+	}	
+
+	.movil_clientes,
+	.movil_nosotros,
+	.movil_servicios_casos,
+	.movil_servicios_psicoterapia,
+	.movil_psicodiagnosticos{
+		background-color: #0000FF;			
+	}	
+
+	#inicio, 
+	#clientes, 
+	#contacto, 
+	#nosotros, 
+	#servicios,
+	#evaluacion_personal,
+	#psicodiagnosticos
+	{
+		min-width: 310px;
+		max-width: 390px;
+		height:568px;
 		margin: 0 auto 0 auto;
-		padding: 2.5%;
+		padding: 5px;
+
 	}
 	
 	#inicio{
-		background-image:url('/images/evaluacionpersonalBG.jpg'); 
-		background-repeat: no-repeat;
-		background-attachment: fixed;	
+		background-color: #EDA535;
 	}
 
 	#nosotros{
-		background-image:url('/images/evaluacionpersonalBG.jpg'); 
-		background-repeat: no-repeat;
-		background-attachment: fixed;	
-	}	
+		background-color: #EDA535;
+	}
 
 	#servicios{
+		background-image:url('/images/psicologialaboralBG.jpg'); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;	
+	}
+
+	#evaluacion_personal{
 		background-image:url('/images/evaluacionpersonalBG.jpg'); 
 		background-repeat: no-repeat;
 		background-attachment: fixed;	
 	}
 
-	#clientes{
-		background-image:url('/images/evaluacionpersonalBG.jpg'); 
+	#psicodiagnosticos{
+		background-image:url('/images/psicodiagnosticoBG.jpg'); 
 		background-repeat: no-repeat;
 		background-attachment: fixed;	
 	}	
+
+	#clientes{
+		/*background-image:url('/images/evaluacionpersonalBG.jpg'); 
+		background-repeat: no-repeat;
+		background-attachment: fixed;*/
+	}
 
 	#contacto{
 		background-image:url('/images/contactoBG.jpg'); 
