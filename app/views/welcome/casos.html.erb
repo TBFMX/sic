@@ -1,9 +1,11 @@
 <div id="servicios">
-<div id="pc">
-	<%= render partial: "casos" %> 
-</div>
-<div id="movil">
-	<%= render partial: "casos" %> 
-	<%= render partial: "informes" %> 		
-</div>
+	<div id="pc">
+		<%= render partial: "contenido/casos" %> 
+	</div>
+	<div id="movil">
+		<div id="ajustar_texto">
+			<%= render partial: "contenido/casos" %> 
+		</div>		
+		<%= render partial: "contenido/informes" %> 		
+	</div>
 </div>

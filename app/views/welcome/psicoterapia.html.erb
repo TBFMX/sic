@@ -1,9 +1,11 @@
 <div id="servicios">
-<div id="pc">
-	<%= render partial: "psicoterapia" %>
-</div>
-<div id="movil">
-	<%= render partial: "psicoterapia" %>
-	<%= render partial: "informes" %>
-</div>
+	<div id="pc">
+		<%= render partial: "contenido/psicoterapia" %>
+	</div>
+	<div id="movil">
+		<div id="ajustar_texto">
+			<%= render partial: "contenido/psicoterapia" %> 
+		</div>	
+		<%= render partial: "contenido/informes" %>
+	</div>
 </div>

@@ -1,45 +1,11 @@
 <div id="servicios">
-<div id="pc">
-	<h1>Psicología laboral</h1>
-	
-	<p>Contamos con profesionistas experimentados en las áreas laborales y clínicas para ayudarlos en los problemas que pueda tener la empresa con su personal.</p>
-	 
-	<p>Tenemos experiencia conjunta en selección de personal, consejería y psicoterapia.</p>
-	 
-	<p>Nos coordinamos con diferentes profesiones y con varios Institutos para tener respaldo y eficiencia.</p>
+	<div id="pc">
+		<%= render partial: "contenido/psicologia_laboral" %> 		
+	</div>
 
-	<p>Nos especializamos en estas áreas:</p>
-	<ul>
-		<li><a href="#casos">Casos especiales</a></li>
-		<li><a href="#psicoterapia">Psicoterapía para el personal</a></li>
-		<li><a href="#resolucion">Resolución de conflictos</a></li>
-	</ul>	
-
-	<%= render partial: "casos" %> 
-	<%= render partial: "psicoterapia" %> 
-	<%= render partial: "resolucion" %> 		
-</div>
-
-<div id="movil">
-	<h1>Psicología laboral</h1>
-	
-	<p>Contamos con profesionistas experimentados en las áreas laborales y clínicas para ayudarlos en los problemas que pueda tener la empresa con su personal.</p>
-	 
-	<p>Tenemos experiencia conjunta en selección de personal, consejería y psicoterapia.</p>
-	 
-	<p>Nos coordinamos con diferentes profesiones y con varios Institutos para tener respaldo y eficiencia.</p>
-
-	<p>Nos especializamos en estas áreas:</p>
-	<ul>
-		<li><a href="#casos">Casos especiales</a></li>
-		<li><a href="#psicoterapia">Psicoterapía para el personal</a></li>
-		<li><a href="#resolucion">Resolución de conflictos</a></li>
-	</ul>	
-
-	<%= render partial: "casos" %> 
-	<%= render partial: "psicoterapia" %> 
-	<%= render partial: "resolucion" %> 
-	
-	<%= render partial: "informes" %> 
-</div>
+	<div id="movil">
+		<%= render partial: "contenido/psicologia_laboral" %> 	
+		
+		<%= render partial: "contenido/informes" %> 
+	</div>
 </div>
