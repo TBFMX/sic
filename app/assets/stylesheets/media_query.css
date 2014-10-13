@@ -36,10 +36,10 @@
 }
 
 /* #### Desktops #### */
-@media screen and (min-width: 1024px){
-}
-
 @media screen and (max-width: 400px){
+	body{
+		background-color: #FFF;
+	}
 	h1{
 		font-size: 33px;
 	}
@@ -53,7 +53,8 @@
 	}
 
 	#movil{
-		max-width:310px;
+		min-width:300px;
+		max-width:380px;
 		height:528px;	
 		padding: 5px;			
 		display: block;
@@ -95,9 +96,6 @@
 	}	
 
 	#clientes{
-		/*background-image:url('/images/evaluacionpersonalBG.jpg'); 
-		background-repeat: no-repeat;
-		background-attachment: fixed;*/
 	}
 
 	#ajustar_texto{
@@ -143,22 +141,110 @@
 	.servicios_ofrecidos li a{
 		text-decoration: none;
 	}
+
+	#informacion{
+		width: 150px;
+		margin: 20px 5px 5px 5px;
+		float: left;
+	}
+
+	#mapa{
+		width: 150px;
+		margin: 20px 5px 5px 5px;
+		float: right;
+	}
+
+	.centrar{
+	margin: 10px auto 20px auto;
+	text-align: center;
+	}
 }
 
-@media screen and (max-width: 909px){
+@media screen and (min-width: 401px) and (max-width: 800px) { /*sicweb800x600*/
 	h1{
-		font-size: 40px;
+		font-size: 35px;
 	}
 
 	p,a{
-		font-size: 15px;
+		font-size: 18px;
 	}
 
 	#movil, #footer,#banner,#regresar{
 		display: none;
 	}
 
-	#pc{
+	#pc,#regresar{
 		display: block;
 	}
+
+	#inicio, 
+	#clientes, 
+	#contacto, 
+	#nosotros, 
+	#servicios,
+	#evaluacion_personal,
+	#psicodiagnosticos{
+	min-width: 401px;	
+	max-width: 780px;
+	padding: 10px;
+	margin: 10px;
+}
+	
+	#contacto{
+		background-color: #FF0000;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1023px){
+	#banner{
+		display: block;
+		background-color: #555555;
+		min-width: 781px;	
+		max-width: 1003px;
+		height: 80px;
+		margin: 0px 10px 10px 10px;	
+	}
+
+	#movil{
+		display: none;
+	}
+
+	#pc,#regresar{
+		display: block;
+	}
+
+	#inicio, 
+	#clientes, 
+	#contacto, 
+	#nosotros, 
+	#servicios,
+	#evaluacion_personal,
+	#psicodiagnosticos{
+		min-width: 761px;	
+		max-width: 1003px;
+		padding: 10px;
+		margin: 10px;
+	}
+
+	#footer{
+		display: block;
+		background-color: #555555;
+		min-width: 781px;	
+		max-width: 1003px;
+		height: 20px;
+		margin: -10px 10px 10px 10px;		
+	}	
+
+	h1{
+		font-size: 40px;
+	}
+
+	p,a{
+		font-size: 20px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+
+
 }

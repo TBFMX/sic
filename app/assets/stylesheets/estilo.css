@@ -8,7 +8,7 @@ body{
 	display: block;
 	background-color: #555555;
 	min-width: 321px;	
-	max-width: 910px;
+	max-width: 1024px;
 	height: 80px;
 	margin: 0 auto 10px auto;	
 }
@@ -28,7 +28,7 @@ body{
 	display: block;
 	background-color: #555555;
 	min-width: 321px;	
-	max-width: 910px;
+	max-width: 1024px;
 	height: 20px;
 	margin: -10px auto 0 auto;	
 }
@@ -44,8 +44,6 @@ body{
 	float: left;
 }
 
-
-
 #inicio, 
 #clientes, 
 #contacto, 
@@ -54,30 +52,29 @@ body{
 #evaluacion_personal,
 #psicodiagnosticos{
 	min-width: 321px;	
-	max-width: 890px;
-	margin: 0 auto 0 auto;
+	max-width: 1004px;
 	padding: 10px;
-	margin-top: 10px;
+	margin: 10px auto 10px auto;
 }
 	
-#inicio,#nosotros{
+#inicio,#nosotros,#contacto{
 	background-color: #EDA535;
 }
 
 #servicios{
-	background-image:url('/images/sicweb800x600/bg02.jpg'); 
+	background-image:url('/images/sicweb1024x768/bg02.jpg'); 
 	background-attachment: fixed;
 	background-position: center;	
 }
 
 #evaluacion_personal{
-	background-image:url('/images/sicweb800x600/bg01.jpg'); 
+	background-image:url('/images/sicweb1024x768/bg01.jpg'); 
 	background-attachment: fixed;
 	background-position: center;		
 }
 
 #psicodiagnosticos{
-	background-image:url('/images/sicweb800x600/bg03.jpg'); 
+	background-image:url('/images/sicweb1024x768/bg03.jpg'); 
 	background-attachment: fixed;	
 	background-position: center;	
 }	
@@ -115,16 +112,14 @@ body{
 }
 
 	.servicios_ofrecidos{
-		min-width: 200px;
-		max-width: 400px;
+		min-width: 150px;
+		max-width: 300px;
 		display: block;
 		list-style: none;
 		margin: 0 auto 0 auto;
 	}
 
 	.servicios_ofrecidos li{
-		min-width: 200px;
-		max-width: 400px;
 		height: 30px;
 		border: 1px solid #FFFFFF;
 		margin-top: 10px;
@@ -174,4 +169,9 @@ a:hover {
 /* selected link */
 a:active {
     color: #FFFFFF;
+}
+
+.centrar{
+	margin: 0 auto 0 auto;
+	text-align: center;
 }
