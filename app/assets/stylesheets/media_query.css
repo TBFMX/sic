@@ -44,7 +44,7 @@
 		font-size: 33px;
 	}
 
-	p,a{
+	p,a,li{
 		font-size: 13px;
 	}
 
@@ -126,7 +126,6 @@
 
 	.servicios_ofrecidos li{
 		width: 200px;
-		height: 20px;
 		border: 1px solid #FFFFFF;
 		padding: 1px;
 		margin-top: 10px;
@@ -165,7 +164,7 @@
 		font-size: 35px;
 	}
 
-	p,a{
+	p,a,li{
 		font-size: 18px;
 	}
 

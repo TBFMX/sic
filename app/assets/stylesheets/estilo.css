@@ -15,7 +15,7 @@ body{
 
 #pc{
 	min-width: 401px;
-	max-width: 910px;
+	max-width: 980px;
 	min-height:  500px;
 	display: block;
 }
@@ -29,6 +29,7 @@ body{
 	background-color: #555555;
 	min-width: 321px;	
 	max-width: 1024px;
+	font-size: 10px;
 	height: 20px;
 	margin: -10px auto 0 auto;	
 }
@@ -41,6 +42,7 @@ body{
 #footer ul li{
 	width: 20%;
 	margin-top:2px;
+	font-size: 15px;
 	float: left;
 }
 
@@ -112,15 +114,14 @@ body{
 }
 
 	.servicios_ofrecidos{
-		min-width: 150px;
-		max-width: 300px;
+		min-width: 200px;
+		max-width: 350px;
 		display: block;
 		list-style: none;
 		margin: 0 auto 0 auto;
 	}
 
 	.servicios_ofrecidos li{
-		height: 30px;
 		border: 1px solid #FFFFFF;
 		margin-top: 10px;
 		text-align: center;
@@ -142,12 +143,8 @@ h1, .anclas {
 	font-weight: bold;
 }
 
-p,a{
+p,a,li{
 	font-size: 25px;
-	color: #FFFFFF;
-}
-
-li{
 	color: #FFFFFF;
 }
 
