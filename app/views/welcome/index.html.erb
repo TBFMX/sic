@@ -1,8 +1,12 @@
 <div id="inicio">
 	<div id="pc">
-		<p>Utilizar la psicología en favor del factor humano</p>
+		<%= render partial: "contenido/introduccion" %>
 	</div>
+
+	<%= render partial: "contenido/menu_navegacion" %>
+	
 	<div id="movil">
-		<p>Utilizar la psicología en favor del factor humano</p>
+		<%= render partial: "contenido/introduccion" %>
+		<%= link_to image_tag(""), servicios_path %>
 	</div>
 </div>
