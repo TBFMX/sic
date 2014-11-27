@@ -1,0 +1,12 @@
+<%=form_tag contact_send_path do%>
+	<%=label :nombre, 'Nombre' %></br>
+	<%=text_field_tag :nombre %></br>
+	<%=label :correo, 'Email'%></br>
+	<%=text_field_tag :correo %></br>
+	<%=label :telefono, 'Telefono'%></br>
+	<%=text_field_tag :telefono %></br>
+	<%=label :mensaje, 'Mensaje'%></br>
+	<%=text_area_tag :mensaje %></br>
+	<%= submit_tag 'Enviar'%>
+<%end%>
+

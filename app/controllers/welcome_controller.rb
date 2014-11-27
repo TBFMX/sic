@@ -29,4 +29,14 @@ class WelcomeController < ApplicationController
   def contacto
   end
 
+  def contacto_send
+    @email = 'email al cual envias' #<- email al cual enviaras
+    @alias = '' #<- nombre de quien envia ejem 'Carlos Acosta Del Rio'
+    @reply = '' #<- a quien contestaran
+    @nombre = params[:nombre]
+    @correo = params[:correo]
+    @telefono = params[:telefono]
+    @mensaje = params[:mensaje]
+
+  end
 end
