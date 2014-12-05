@@ -6,11 +6,17 @@ body{
 
 #banner{
 	display: block;
-	background-color: #555555;
 	min-width: 321px;	
 	max-width: 1024px;
 	height: 80px;
-	margin: 0 auto 10px auto;	
+	margin: 0 auto 10px auto;
+	background-color: #555555;
+	/*background-image:url('/images/banner.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;	
+	background-size: 100% 300px; 
+	background-position: right -100px;*/
+
 }
 
 #pc{
@@ -18,6 +24,7 @@ body{
 	max-width: 980px;
 	min-height:  500px;
 	display: block;
+	padding: 30px;
 }
 
 #movil,
@@ -31,9 +38,9 @@ body{
 	background-color: #555555;
 	min-width: 321px;	
 	max-width: 1024px;
-	font-size: 10px;
+	/*font-size: 10px;*/
 	height: 20px;
-	margin: -10px auto 0 auto;	
+	margin: 10px auto 0 auto;	
 }
 
 #footer ul{
@@ -58,12 +65,24 @@ body{
 	min-width: 321px;	
 	max-width: 1004px;
 	padding: 10px;
-	margin: 0 auto 0 auto;
+	margin: 10px auto 0 auto;
 	z-index: -1;
+}
+
+#nosotros,#contacto{
+	max-width: 974px;
+	padding: 30px;
 }
 	
 #inicio,#nosotros,#contacto{
-	background-color: #EDA535;
+	background: #007faa; /* Old browsers */
+	background: -moz-linear-gradient(top,  #007faa 0%, #40bfdf 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#007faa), color-stop(100%,#40bfdf)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #007faa 0%,#40bfdf 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #007faa 0%,#40bfdf 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #007faa 0%,#40bfdf 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #007faa 0%,#40bfdf 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007faa', endColorstr='#40bfdf',GradientType=0 ); /* IE6-9 */
 }
 
 #servicios{
