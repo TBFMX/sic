@@ -1,7 +1,7 @@
 body{
 	margin:0;
 	padding:0;
-	background-color: #a6a6a6;
+	background-color: #fff;
 }
 
 #banner{
@@ -9,15 +9,15 @@ body{
 	min-width: 321px;	
 	max-width: 1024px;
 	height: 80px;
+	text-align: center;
 	margin: 0 auto 10px auto;
-	background-color: #555555;
 	/*background-image:url('/images/banner.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
 	background-size: 100% 300px; 
 	background-position: right -100px;*/
-
 }
+
 
 #pc{
 	min-width: 401px;

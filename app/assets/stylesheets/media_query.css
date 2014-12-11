@@ -247,11 +247,6 @@
 		max-width: 1003px;
 		height: 80px;
 		margin: 0px 10px 10px 10px;
-	background-color: black;
-	background-image:url('/images/banner.jpg');
-	background-size: 400px 568px; 
-	background-repeat: no-repeat;
-	background-attachment: fixed;		
 	}
 
 	#movil{
