@@ -11,7 +11,7 @@ body{
 	height: 80px;
 	text-align: center;
 	margin: 0 auto 10px auto;
-	/*background-image:url('/images/banner.jpg');
+	/*background-image:url('banner.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;	
 	background-size: 100% 300px; 
@@ -80,25 +80,25 @@ body{
 }
 
 #servicios{
-	background-image:url('/images/sicweb1024x768/bg02.jpg'); 
+	background-image:url('sicweb1024x768/bg02.jpg'); 
 	background-attachment: fixed;
 	background-position: center;	
 }
 
 #evaluacion_personal{
-	background-image:url('/images/sicweb1024x768/bg01.jpg'); 
+	background-image:url('sicweb1024x768/bg01.jpg'); 
 	background-attachment: fixed;
 	background-position: center;		
 }
 
 #psicodiagnosticos{
-	background-image:url('/images/sicweb1024x768/bg03.jpg'); 
+	background-image:url('sicweb1024x768/bg03.jpg'); 
 	background-attachment: fixed;	
 	background-position: center;	
 }	
 
 #clientes{
-	/*background-image:url('/images/evaluacionpersonalBG.jpg'); 
+	/*background-image:url('evaluacionpersonalBG.jpg'); 
 	background-repeat: no-repeat;
 	background-attachment: fixed;*/
 }

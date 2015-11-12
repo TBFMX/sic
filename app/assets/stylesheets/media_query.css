@@ -82,19 +82,19 @@
 	}
 
 	#servicios{
-		background-image:url('/images/sicweb320x578/bg02.jpg');
+		background-image:url('sicweb320x578/bg02.jpg');
 		background-size: 400px 568px; 
 		background-attachment: fixed;	
 	}
 
 	#evaluacion_personal{
-		background-image:url('/images/sicweb320x578/bg01.jpg'); 
+		background-image:url('sicweb320x578/bg01.jpg'); 
 		background-size: 400px 568px; 
 		background-attachment: fixed;	
 	}
 
 	#psicodiagnosticos{
-		background-image:url('/images/sicweb320x578/bg03.jpg'); 
+		background-image:url('sicweb320x578/bg03.jpg'); 
 		background-size: 400px 568px; 
 		background-attachment: fixed;	
 	}	
